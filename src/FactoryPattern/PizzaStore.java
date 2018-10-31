@@ -2,9 +2,9 @@ package FactoryPattern;
 
 public class PizzaStore {
 
-    private SimplePuzzaFactory factory;
+    private SimplePizzaFactory factory;
 
-    public PizzaStore(SimplePuzzaFactory factory){
+    public PizzaStore(SimplePizzaFactory factory){
         this.factory = factory;
     }
 

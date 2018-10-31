@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-public class SimplePuzzaFactory {
+public class SimplePizzaFactory {
 
     public AbstractPizza createPizza(String type){
         AbstractPizza pizza = null;
