@@ -1,6 +1,8 @@
 package IteratorPattern;
 
 
+import java.util.Iterator;
+
 public class DinnerMenu implements Menu{
     private static final int MAX_ITEMS = 6;
     private int numOfItems = 0;

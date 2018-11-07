@@ -1,6 +1,7 @@
 package IteratorPattern;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class PancakeMenuIterator implements Iterator {
 

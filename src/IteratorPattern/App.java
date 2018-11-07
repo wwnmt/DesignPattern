@@ -5,9 +5,10 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
-        Map<String, Menu> menuMap = new HashMap<>();
-        menuMap.put("breakfast", new PancakeHouseMenu());
-        menuMap.put("launch", new DinnerMenu());
+        Map<Menu, String> menuMap = new HashMap<>();
+        menuMap.put(new PancakeHouseMenu(), "breakfast");
+        menuMap.put(new DinnerMenu(), "launch");
+        menuMap.put(new CafeMenu(), "dinner");
 
         Waitress waitress = new Waitress(menuMap);
         waitress.printMenu();
